@@ -74,8 +74,7 @@ async function handler(request) {
         if (short_url == '') {
             return new Response(JSON.stringify({
                 'code': -1,
-                'msg': '404 not fond',
-                'short': ''
+                'msg': '404 Not found',
             }), {
                 headers: response_header,
                 status: 404
@@ -86,8 +85,7 @@ async function handler(request) {
 
         return new Response(JSON.stringify({
             'code': -2,
-            'msg': '404 not fond',
-            'short': ''
+            'msg': '404 Not found',
         }), {
             headers: response_header,
             status: 404
@@ -140,7 +138,7 @@ async function handler(request) {
         if (typeof (status) == "undefined") {
             return new Response(JSON.stringify({
                 "code": 0,
-                "msg": "ok",
+                "msg": "Ok",
                 "short": short
             }), {
                 headers: response_header,
