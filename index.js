@@ -1,5 +1,5 @@
 const config = {
-    passwd: '', // set request password
+    passwd: 'default', // set request password
 }
 
 const response_header = {
