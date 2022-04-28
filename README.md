@@ -1,6 +1,6 @@
 # Urlshorter-Workers
 
-> A simple urlshorter based on cloudflare worerks
+> A simple urlshorter based on cloudflare workers
 
 # Useage
 
