@@ -1,4 +1,4 @@
-# Urlshorter-Worerks
+# Urlshorter-Workers
 
 > A simple urlshorter based on cloudflare worerks
 
